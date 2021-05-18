@@ -14,12 +14,14 @@
 
 ## セットアップ
 ### ログイン情報の設定
-環境変数にログイン用のメールアドレスとパスワードを設定  
+環境変数にログイン用のメールアドレスとパスワードを設定
+下記内容を`bash_profile`やら`zsh_profile`やらに追記  
 （適宜自分のものに置き換えてください）
 ```
 $ export SDVX_MAIL=hogehoge@fugamail.com
 $ export SDVX_PASSWORD=pokopoko
 ```
+(追記後、sourceコマンドで追記したファイルを読み直すのをお忘れなく)
 
 設定できたことを念の為確認
 ```
