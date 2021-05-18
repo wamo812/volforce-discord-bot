@@ -23,7 +23,7 @@ $ export SDVX_PASSWORD=pokopoko
 
 設定できたことを念の為確認
 ```
-$ echo $SDVX_PASSWORD
+$ echo $SDVX_MAIL
 hogehoge@fugamail.com
 $ echo $SDVX_PASSWORD
 pokopoko
@@ -59,3 +59,6 @@ TM
 
 ## 要望
 こういう機能欲しい！みたいな要望思いつきましたらぜひ言ってください
+
+## TODO
+- [ ] コンテナイメージ化したい
